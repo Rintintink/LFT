@@ -1,0 +1,25 @@
+
+Aparte POU:
+Startknop zet RUN_AUTO actief,
+Stopknop zet RUN_AUTO inactief.
+
+
+Zolang SafetyOK en RUN_AUTO actief:
+Stap 0,  safetycheck en bitschakeling etc.
+Stap 1,  2 seconden qx_relaisExtruderStart Hoog, dan laag.
+Stap 2,  2 seconden qx_relaisextruderSTop Hoog, dan laag.
+Stap 3,  wacht tot IX_FCLengte geschakeld wordt.
+Stap 4,  activeer qx_relaiscuttingactiveer tot ix_reedCuttingGesloten actief wordt
+Stap 5,  activeer qx_relaiscuttingdeactiveer tot ix_reedCuttingOpen actief wordt
+Stap 6,  (eventueel) start loopband
+Stap 7,  (eventueel) stop loopband op nog onbestaande sensor
+Stap 8,  Als IX KukaGereed en niet IX_KUKAALARM, dan volgende stap, anders naar Alarmstap, met foutcode 8
+Stap 9,  als IX_FCGripper en IX_ReedGripper1 en IX_ReedGripper2 hoog, dan activeer QX_Kukacommstart voor 1 seconde
+Stap 10, Wacht tot IX_KukaGereed 2x binnen 3 seconden Hoog-Laag-Hoog-laag wordt geschakeld,
+Stap 11, Schakel QX_Ventiel1 hoog, als IX_ReedGripper1 en/of IX_ReedGripper2 nog hoog staan na 1 sec, naar Alarmstap met foutcode 11, anders naar volgende stap.
+Stap 12, Activeer QX_Kukacommstart en schakel QX_Ventiel1 Laag.
+Stap 13, Deactiveer QX_Kukacommstart, en wacht tot IX_KukaGereed 2x binnen 3 seconden Hoog-Laag-Hoog-laag wordt geschakeld.
+Stap 14, Als IX_FCGripper laag staat, dan Schakel QX_Ventiel2 hoog totdat IX_ReedGripper1 en IX_ReedGripper2 hoog staan. Als na 2 sec IX_ReedGripper1 of IX_ReedGripper2 nog laag staat, dan Alarmstap met foutcode 14.
+Stap 15, 
+Stap 16,
+Stap 17,
