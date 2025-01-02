@@ -29,6 +29,8 @@ START:
 1. Controleer of SafetyOK = TRUE en RUN_AUTO = TRUE.
    - Zo niet: Ga naar ALARMSTAP met foutcode 0.
 
+
+
 STAP 1: Start extruder
 - Zet QX_RelaisExtruderStart = TRUE.
 - Start timer (2s).
