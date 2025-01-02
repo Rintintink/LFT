@@ -199,6 +199,23 @@
             <Label />
             <IsLadderSelected>false</IsLadderSelected>
           </RungEntity>
+          <RungEntity>
+            <LadderElements />
+            <InstructionLines>
+              <InstructionLineEntity>
+                <InstructionLine>LD    %I0.11</InstructionLine>
+                <Comment />
+              </InstructionLineEntity>
+              <InstructionLineEntity>
+                <InstructionLine>ST    %M111</InstructionLine>
+                <Comment />
+              </InstructionLineEntity>
+            </InstructionLines>
+            <Name>RESETKNOP</Name>
+            <MainComment />
+            <Label />
+            <IsLadderSelected>false</IsLadderSelected>
+          </RungEntity>
         </Rungs>
       </ProgramOrganizationUnits>
       <ProgramOrganizationUnits>
@@ -226,242 +243,15 @@
             <Label />
             <IsLadderSelected>false</IsLadderSelected>
           </RungEntity>
-        </Rungs>
-      </ProgramOrganizationUnits>
-      <ProgramOrganizationUnits>
-        <Name>PRG1</Name>
-        <SectionNumber>3</SectionNumber>
-        <Rungs>
           <RungEntity>
-            <LadderElements>
-              <LadderEntity>
-                <ElementType>NormalContact</ElementType>
-                <Descriptor>%M50</Descriptor>
-                <Comment />
-                <Symbol>B_SAFETYOK</Symbol>
-                <Row>0</Row>
-                <Column>0</Column>
-                <ChosenConnection>Left, Right</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>Timer</ElementType>
-                <Descriptor>%TM0</Descriptor>
-                <Comment />
-                <Row>0</Row>
-                <Column>6</Column>
-                <ChosenConnection>Left, Right</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>Line</ElementType>
-                <Descriptor />
-                <Row>0</Row>
-                <Column>5</Column>
-                <ChosenConnection>Left, Right</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>Line</ElementType>
-                <Descriptor />
-                <Row>0</Row>
-                <Column>8</Column>
-                <ChosenConnection>Left, Right</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>Line</ElementType>
-                <Descriptor />
-                <Row>0</Row>
-                <Column>9</Column>
-                <ChosenConnection>Left, Right</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>Coil</ElementType>
-                <Descriptor>%M90</Descriptor>
-                <Comment />
-                <Symbol>QX_RELAISEXTRUDERSTART</Symbol>
-                <Row>0</Row>
-                <Column>10</Column>
-                <ChosenConnection>Left</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>RisingEdge</ElementType>
-                <Descriptor>%M20</Descriptor>
-                <Comment />
-                <Symbol>STAP_0</Symbol>
-                <Row>0</Row>
-                <Column>4</Column>
-                <ChosenConnection>Left, Right</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>Line</ElementType>
-                <Row>0</Row>
-                <Column>2</Column>
-                <ChosenConnection>Left, Right</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>Line</ElementType>
-                <Row>0</Row>
-                <Column>3</Column>
-                <ChosenConnection>Left, Right</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>NormalContact</ElementType>
-                <Descriptor>%M51</Descriptor>
-                <Comment />
-                <Symbol>RUN_AUTO</Symbol>
-                <Row>0</Row>
-                <Column>1</Column>
-                <ChosenConnection>Left, Right</ChosenConnection>
-              </LadderEntity>
-            </LadderElements>
+            <LadderElements />
             <InstructionLines>
               <InstructionLineEntity>
-                <InstructionLine>BLK   %TM0</InstructionLine>
+                <InstructionLine>LDN   %M50</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>LD    %M50</InstructionLine>
-                <Comment />
-              </InstructionLineEntity>
-              <InstructionLineEntity>
-                <InstructionLine>AND   %M51</InstructionLine>
-                <Comment />
-              </InstructionLineEntity>
-              <InstructionLineEntity>
-                <InstructionLine>ANDR  %M20</InstructionLine>
-                <Comment />
-              </InstructionLineEntity>
-              <InstructionLineEntity>
-                <InstructionLine>IN</InstructionLine>
-                <Comment />
-              </InstructionLineEntity>
-              <InstructionLineEntity>
-                <InstructionLine>OUT_BLK</InstructionLine>
-                <Comment />
-              </InstructionLineEntity>
-              <InstructionLineEntity>
-                <InstructionLine>LD    Q</InstructionLine>
-                <Comment />
-              </InstructionLineEntity>
-              <InstructionLineEntity>
-                <InstructionLine>ST    %M90</InstructionLine>
-                <Comment />
-              </InstructionLineEntity>
-              <InstructionLineEntity>
-                <InstructionLine>END_BLK</InstructionLine>
-                <Comment />
-              </InstructionLineEntity>
-            </InstructionLines>
-            <Name />
-            <MainComment />
-            <Label />
-            <IsLadderSelected>true</IsLadderSelected>
-          </RungEntity>
-          <RungEntity>
-            <LadderElements>
-              <LadderEntity>
-                <ElementType>NormalContact</ElementType>
-                <Descriptor>%M50</Descriptor>
-                <Comment />
-                <Symbol>B_SAFETYOK</Symbol>
-                <Row>0</Row>
-                <Column>0</Column>
-                <ChosenConnection>Left, Right</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>RisingEdge</ElementType>
-                <Descriptor>%M21</Descriptor>
-                <Comment />
-                <Symbol>STAP_1</Symbol>
-                <Row>0</Row>
-                <Column>4</Column>
-                <ChosenConnection>Left, Right</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>Timer</ElementType>
-                <Descriptor>%TM1</Descriptor>
-                <Comment />
-                <Row>0</Row>
-                <Column>6</Column>
-                <ChosenConnection>Left, Right</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>Line</ElementType>
-                <Descriptor />
-                <Row>0</Row>
-                <Column>5</Column>
-                <ChosenConnection>Left, Right</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>Line</ElementType>
-                <Descriptor />
-                <Row>0</Row>
-                <Column>8</Column>
-                <ChosenConnection>Left, Right</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>Line</ElementType>
-                <Descriptor />
-                <Row>0</Row>
-                <Column>9</Column>
-                <ChosenConnection>Left, Right</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>Coil</ElementType>
-                <Descriptor>%M91</Descriptor>
-                <Comment />
-                <Symbol>QX_RELAISEXTRUDERSTOP</Symbol>
-                <Row>0</Row>
-                <Column>10</Column>
-                <ChosenConnection>Left</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>Line</ElementType>
-                <Row>0</Row>
-                <Column>2</Column>
-                <ChosenConnection>Left, Right</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>Line</ElementType>
-                <Row>0</Row>
-                <Column>3</Column>
-                <ChosenConnection>Left, Right</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>NormalContact</ElementType>
-                <Descriptor>%M51</Descriptor>
-                <Comment />
-                <Symbol>RUN_AUTO</Symbol>
-                <Row>0</Row>
-                <Column>1</Column>
-                <ChosenConnection>Left, Right</ChosenConnection>
-              </LadderEntity>
-            </LadderElements>
-            <InstructionLines>
-              <InstructionLineEntity>
-                <InstructionLine>BLK   %TM1</InstructionLine>
-                <Comment />
-              </InstructionLineEntity>
-              <InstructionLineEntity>
-                <InstructionLine>LD    %M50</InstructionLine>
-                <Comment />
-              </InstructionLineEntity>
-              <InstructionLineEntity>
-                <InstructionLine>AND   %M51</InstructionLine>
-                <Comment />
-              </InstructionLineEntity>
-              <InstructionLineEntity>
-                <InstructionLine>ANDR  %M21</InstructionLine>
-                <Comment />
-              </InstructionLineEntity>
-              <InstructionLineEntity>
-                <InstructionLine>IN</InstructionLine>
-                <Comment />
-              </InstructionLineEntity>
-              <InstructionLineEntity>
-                <InstructionLine>OUT_BLK</InstructionLine>
-                <Comment />
-              </InstructionLineEntity>
-              <InstructionLineEntity>
-                <InstructionLine>LD    Q</InstructionLine>
+                <InstructionLine>ST    %M95</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
@@ -469,10 +259,95 @@
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>END_BLK</InstructionLine>
+                <InstructionLine>ST    %M92</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
             </InstructionLines>
+            <Name />
+            <MainComment />
+            <Label />
+            <IsLadderSelected>false</IsLadderSelected>
+          </RungEntity>
+        </Rungs>
+      </ProgramOrganizationUnits>
+      <ProgramOrganizationUnits>
+        <Name>PRG1</Name>
+        <SectionNumber>3</SectionNumber>
+        <Rungs>
+          <RungEntity>
+            <LadderElements />
+            <InstructionLines>
+              <InstructionLineEntity>
+                <InstructionLine>LD    %M50</InstructionLine>
+                <Comment />
+              </InstructionLineEntity>
+              <InstructionLineEntity>
+                <InstructionLine>AND   NOT T1</InstructionLine>
+                <Comment />
+              </InstructionLineEntity>
+              <InstructionLineEntity>
+                <InstructionLine>ST    %M90</InstructionLine>
+                <Comment />
+              </InstructionLineEntity>
+            </InstructionLines>
+            <Name />
+            <MainComment />
+            <Label />
+            <IsLadderSelected>false</IsLadderSelected>
+          </RungEntity>
+        </Rungs>
+      </ProgramOrganizationUnits>
+      <ProgramOrganizationUnits>
+        <Name>New POU</Name>
+        <SectionNumber>0</SectionNumber>
+        <Rungs>
+          <RungEntity>
+            <LadderElements />
+            <InstructionLines>
+              <InstructionLineEntity>
+                <InstructionLine>LD    %M100</InstructionLine>
+                <Comment>; Controleer of de input actief is</Comment>
+              </InstructionLineEntity>
+              <InstructionLineEntity>
+                <InstructionLine>TON   %TM2, T#5s</InstructionLine>
+                <Comment>; Start de timer T1 met een preset tijd van 5 seconden</Comment>
+              </InstructionLineEntity>
+            </InstructionLines>
+            <Name />
+            <MainComment />
+            <Label />
+            <IsLadderSelected>false</IsLadderSelected>
+          </RungEntity>
+          <RungEntity>
+            <LadderElements />
+            <InstructionLines>
+              <InstructionLineEntity>
+                <InstructionLine>LD    T1.Q</InstructionLine>
+                <Comment />
+              </InstructionLineEntity>
+              <InstructionLineEntity>
+                <InstructionLine>ST    %M90</InstructionLine>
+                <Comment />
+              </InstructionLineEntity>
+            </InstructionLines>
+            <Name />
+            <MainComment />
+            <Label />
+            <IsLadderSelected>false</IsLadderSelected>
+          </RungEntity>
+          <RungEntity>
+            <LadderElements>
+              <LadderEntity>
+                <ElementType>Timer</ElementType>
+                <Descriptor>%TM0</Descriptor>
+                <Comment />
+                <Symbol />
+                <Row>0</Row>
+                <Column>5</Column>
+                <ChosenConnection>Left</ChosenConnection>
+              </LadderEntity>
+            </LadderElements>
+            <InstructionLines />
             <Name />
             <MainComment />
             <Label />
@@ -550,6 +425,66 @@
         <Address>%M28</Address>
         <Index>28</Index>
         <Symbol>STAP_8</Symbol>
+      </MemoryBit>
+      <MemoryBit>
+        <Address>%M29</Address>
+        <Index>29</Index>
+        <Symbol>STAP_9</Symbol>
+      </MemoryBit>
+      <MemoryBit>
+        <Address>%M30</Address>
+        <Index>30</Index>
+        <Symbol>STAP_10</Symbol>
+      </MemoryBit>
+      <MemoryBit>
+        <Address>%M31</Address>
+        <Index>31</Index>
+        <Symbol>STAP_11</Symbol>
+      </MemoryBit>
+      <MemoryBit>
+        <Address>%M32</Address>
+        <Index>32</Index>
+        <Symbol>STAP_12</Symbol>
+      </MemoryBit>
+      <MemoryBit>
+        <Address>%M33</Address>
+        <Index>33</Index>
+        <Symbol>STAP_13</Symbol>
+      </MemoryBit>
+      <MemoryBit>
+        <Address>%M34</Address>
+        <Index>34</Index>
+        <Symbol>STAP_14</Symbol>
+      </MemoryBit>
+      <MemoryBit>
+        <Address>%M35</Address>
+        <Index>35</Index>
+        <Symbol>STAP_15</Symbol>
+      </MemoryBit>
+      <MemoryBit>
+        <Address>%M36</Address>
+        <Index>36</Index>
+        <Symbol>STAP_16</Symbol>
+      </MemoryBit>
+      <MemoryBit>
+        <Address>%M37</Address>
+        <Index>37</Index>
+        <Symbol>STAP_17</Symbol>
+      </MemoryBit>
+      <MemoryBit>
+        <Address>%M38</Address>
+        <Index>38</Index>
+        <Symbol>STAP_18</Symbol>
+      </MemoryBit>
+      <MemoryBit>
+        <Address>%M39</Address>
+        <Index>39</Index>
+        <Symbol>STAP_19</Symbol>
+      </MemoryBit>
+      <MemoryBit>
+        <Address>%M40</Address>
+        <Index>40</Index>
+        <Symbol>STAP_20</Symbol>
       </MemoryBit>
       <MemoryBit>
         <Address>%M50</Address>
@@ -665,6 +600,11 @@
         <Address>%M110</Address>
         <Index>110</Index>
         <Symbol>IX_KUKAALARM</Symbol>
+      </MemoryBit>
+      <MemoryBit>
+        <Address>%M111</Address>
+        <Index>111</Index>
+        <Symbol>IX_RESETKNOP</Symbol>
       </MemoryBit>
     </MemoryBits>
     <SystemBits>
