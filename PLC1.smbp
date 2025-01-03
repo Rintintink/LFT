@@ -1145,6 +1145,12 @@
                 <Column>6</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
               </LadderEntity>
+              <LadderEntity>
+                <ElementType>None</ElementType>
+                <Row>2</Row>
+                <Column>0</Column>
+                <ChosenConnection>None</ChosenConnection>
+              </LadderEntity>
             </LadderElements>
             <InstructionLines>
               <InstructionLineEntity>
