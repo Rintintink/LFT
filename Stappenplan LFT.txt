@@ -1,4 +1,4 @@
-
+	
 Aparte POU:
 Startknop zet RUN_AUTO actief,
 Stopknop zet RUN_AUTO inactief.
