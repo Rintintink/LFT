@@ -1147,8 +1147,8 @@
               </LadderEntity>
               <LadderEntity>
                 <ElementType>None</ElementType>
-                <Row>2</Row>
-                <Column>0</Column>
+                <Row>4</Row>
+                <Column>10</Column>
                 <ChosenConnection>None</ChosenConnection>
               </LadderEntity>
             </LadderElements>
@@ -1271,7 +1271,7 @@
       <ForcedCount>2000</ForcedCount>
     </MemoryWordsMemoryAllocation>
     <TimersMemoryAllocation>
-      <ForcedCount>4</ForcedCount>
+      <ForcedCount>5</ForcedCount>
     </TimersMemoryAllocation>
     <CountersMemoryAllocation />
     <RegistersMemoryAllocation />
