@@ -88,50 +88,55 @@ STAP 8: Controle KUKA-gereed
 - Bij fout: Ga naar ALARMSTAP met foutcode 8.
 - Bij succes: Ga naar STAP 9.
 
-STAP 9: Voorbereiden grijper
-- Controleer of:
-  - IX_FCGripper = TRUE.
-  - IX_ReedGripper1 = TRUE.
-  - IX_ReedGripper2 = TRUE.
-- Activeer QX_KukaCommStart gedurende 1s.
-- Timeout: Als voorwaarden niet binnen 2s kloppen, ga naar ALARMSTAP met foutcode 9.
-- Ga naar STAP 10.
+STAP 9: KUKA naar positie brengen  
+- Activeer QX_KukaCommStart gedurende 1s.  
+- Wacht tot 1 seconde is verstreken.  
+- Ga naar STAP 10.  
 
-STAP 10: KUKA-gereed controle (2 schakelingen)
-- Wacht tot IX_KukaGereed 2x schakelt (Hoog-Laag-Hoog-Laag) binnen 3s.
-- Timeout: Als dit niet gebeurt, ga naar ALARMSTAP met foutcode 10.
-- Ga naar STAP 11.
+STAP 10: Controle grijperstatus  
+- Controleer of:  
+  - IX_FCGripper = TRUE.  
+  - IX_ReedGripper1 = TRUE.  
+  - IX_ReedGripper2 = TRUE.  
+- Als voorwaarden niet binnen 2s kloppen:  
+  - Ga naar ALARMSTAP met foutcode 10.  
+- Ga naar STAP 11.  
 
-STAP 11: Ventiel 1 activeren
-- Zet QX_Ventiel1 = TRUE.
-- Controleer:
-  - Als IX_ReedGripper1 en/of IX_ReedGripper2 = TRUE blijven na 1s:
-    - Ga naar ALARMSTAP met foutcode 11.
-  - Anders: Ga naar STAP 12.
+STAP 11: KUKA-gereed controle (2 schakelingen)  
+- Wacht tot IX_KukaGereed 2x schakelt (Hoog-Laag-Hoog-Laag) binnen 3s.  
+- Timeout: Als dit niet gebeurt, ga naar ALARMSTAP met foutcode 11.  
+- Ga naar STAP 12.  
 
-STAP 12: KUKA-communicatie herstarten
-- Activeer QX_KukaCommStart.
-- Zet QX_Ventiel1 = FALSE.
-- Ga naar STAP 13.
+STAP 12: Ventiel 1 activeren  
+- Zet QX_Ventiel1 = TRUE.  
+- Controleer:  
+  - Als IX_ReedGripper1 en/of IX_ReedGripper2 = TRUE blijven na 1s:  
+    - Ga naar ALARMSTAP met foutcode 12.  
+  - Anders: Ga naar STAP 13.  
 
-STAP 13: KUKA-gereed controle (2 schakelingen)
-- Wacht tot IX_KukaGereed 2x schakelt (Hoog-Laag-Hoog-Laag) binnen 3s.
-- Timeout: Als dit niet gebeurt, ga naar ALARMSTAP met foutcode 13.
-- Ga naar STAP 14.
+STAP 13: KUKA-communicatie herstarten  
+- Activeer QX_KukaCommStart.  
+- Zet QX_Ventiel1 = FALSE.  
+- Ga naar STAP 14.  
 
-STAP 14: Grijper sluiten
-- Controleer of IX_FCGripper = FALSE.
-- Zet QX_Ventiel2 = TRUE totdat IX_ReedGripper1 en IX_ReedGripper2 = TRUE.
-- Timeout: Als IX_ReedGripper1 en/of IX_ReedGripper2 niet schakelen binnen 2s, ga naar ALARMSTAP met foutcode 14.
-- Ga naar STAP 15.
+STAP 14: KUKA-gereed controle (2 schakelingen)  
+- Wacht tot IX_KukaGereed 2x schakelt (Hoog-Laag-Hoog-Laag) binnen 3s.  
+- Timeout: Als dit niet gebeurt, ga naar ALARMSTAP met foutcode 14.  
+- Ga naar STAP 15.  
 
-STAP 15: Herstart proces
-- Wacht tot IX_KukaGereed = TRUE.
-- Herstart proces vanaf STAP 1.
+STAP 15: Grijper sluiten  
+- Controleer of IX_FCGripper = FALSE.  
+- Zet QX_Ventiel2 = TRUE totdat IX_ReedGripper1 en IX_ReedGripper2 = TRUE.  
+- Timeout: Als IX_ReedGripper1 en/of IX_ReedGripper2 niet schakelen binnen 2s, ga naar ALARMSTAP met foutcode 15.  
+- Ga naar STAP 16.  
 
-ALARMSTAP:
-- Schrijf foutcode naar register.
-- Zet alle outputs = FALSE.
-- Toon foutmelding aan operator.
-- Wacht op resetknop (IX_Reset).
-- Na reset: Ga naar START.
+STAP 16: Herstart proces  
+- Wacht tot IX_KukaGereed = TRUE.  
+- Herstart proces vanaf STAP 1.  
+
+ALARMSTAP:  
+- Schrijf foutcode naar register.  
+- Zet alle outputs = FALSE.  
+- Toon foutmelding aan operator.  
+- Wacht op resetknop (IX_Reset).  
+- Na reset: Ga naar START.  
