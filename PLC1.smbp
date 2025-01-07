@@ -3,7 +3,7 @@
   <ProjectVersion>2.7.0.0</ProjectVersion>
   <ManagementLevel>FunctLevelMan18_0</ManagementLevel>
   <Name>PLC1</Name>
-  <FullName>D:\Repositories\LFT\PLC1.smbp</FullName>
+  <FullName>D:\Documenten\GitRepo\LFT\PLC1.smbp</FullName>
   <CurrentCultureName>en-GB</CurrentCultureName>
   <SoftwareConfiguration>
     <Pous>
@@ -413,7 +413,7 @@
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>MPP</InstructionLine>
+                <InstructionLine>MRD</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
@@ -422,6 +422,18 @@
               </InstructionLineEntity>
               <InstructionLineEntity>
                 <InstructionLine>ST    %M56</InstructionLine>
+                <Comment />
+              </InstructionLineEntity>
+              <InstructionLineEntity>
+                <InstructionLine>MPP</InstructionLine>
+                <Comment />
+              </InstructionLineEntity>
+              <InstructionLineEntity>
+                <InstructionLine>AND   [ %MW10 = 0 ]</InstructionLine>
+                <Comment />
+              </InstructionLineEntity>
+              <InstructionLineEntity>
+                <InstructionLine>[ %MW10 := 1 ]</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
             </InstructionLines>
