@@ -313,7 +313,7 @@
                 <Comment />
               </InstructionLineEntity>
             </InstructionLines>
-            <Name>Ventiel activeer 2</Name>
+            <Name>Kuka communicatie startsignaal</Name>
             <MainComment />
             <Label />
             <IsLadderSelected>false</IsLadderSelected>
@@ -327,23 +327,6 @@
               </InstructionLineEntity>
               <InstructionLineEntity>
                 <InstructionLine>ST    %Q0.6</InstructionLine>
-                <Comment />
-              </InstructionLineEntity>
-            </InstructionLines>
-            <Name>Kuka communicatie startsignaal</Name>
-            <MainComment />
-            <Label />
-            <IsLadderSelected>false</IsLadderSelected>
-          </RungEntity>
-          <RungEntity>
-            <LadderElements />
-            <InstructionLines>
-              <InstructionLineEntity>
-                <InstructionLine>LD    %M97</InstructionLine>
-                <Comment />
-              </InstructionLineEntity>
-              <InstructionLineEntity>
-                <InstructionLine>ST    %Q0.7</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
             </InstructionLines>
@@ -978,7 +961,73 @@
             <IsLadderSelected>true</IsLadderSelected>
           </RungEntity>
           <RungEntity>
-            <LadderElements />
+            <LadderElements>
+              <LadderEntity>
+                <ElementType>NormalContact</ElementType>
+                <Descriptor>%M55</Descriptor>
+                <Comment />
+                <Symbol>RUN_PRG</Symbol>
+                <Row>0</Row>
+                <Column>0</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Comparison</ElementType>
+                <ComparisonExpression>%MW10 = 3</ComparisonExpression>
+                <Row>0</Row>
+                <Column>1</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Descriptor />
+                <Row>0</Row>
+                <Column>3</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Descriptor />
+                <Row>0</Row>
+                <Column>4</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Descriptor />
+                <Row>0</Row>
+                <Column>5</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Descriptor />
+                <Row>0</Row>
+                <Column>6</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Descriptor />
+                <Row>0</Row>
+                <Column>7</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Descriptor />
+                <Row>0</Row>
+                <Column>8</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Operation</ElementType>
+                <OperationExpression>%MW10 := %MW10 + 1</OperationExpression>
+                <Row>0</Row>
+                <Column>9</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+            </LadderElements>
             <InstructionLines>
               <InstructionLineEntity>
                 <InstructionLine>LD    %M55</InstructionLine>
@@ -996,7 +1045,7 @@
             <Name>Stap 3</Name>
             <MainComment />
             <Label />
-            <IsLadderSelected>false</IsLadderSelected>
+            <IsLadderSelected>true</IsLadderSelected>
           </RungEntity>
           <RungEntity>
             <LadderElements>
@@ -2150,7 +2199,7 @@
                 <ElementType>NormalContact</ElementType>
                 <Descriptor>%M112</Descriptor>
                 <Comment />
-                <Symbol>IX_FCTRANSBAAN</Symbol>
+                <Symbol>IX_RESETKNOP</Symbol>
                 <Row>0</Row>
                 <Column>5</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
@@ -2607,7 +2656,7 @@
                 <ElementType>Coil</ElementType>
                 <Descriptor>%M96</Descriptor>
                 <Comment />
-                <Symbol>QX_KUKACOMMSTART</Symbol>
+                <Symbol>QX_KUKACOMMSTOP</Symbol>
                 <Row>0</Row>
                 <Column>10</Column>
                 <ChosenConnection>Left</ChosenConnection>
@@ -2822,7 +2871,7 @@
                 <ElementType>SetCoil</ElementType>
                 <Descriptor>%M96</Descriptor>
                 <Comment />
-                <Symbol>QX_KUKACOMMSTART</Symbol>
+                <Symbol>QX_KUKACOMMSTOP</Symbol>
                 <Row>2</Row>
                 <Column>10</Column>
                 <ChosenConnection>Left</ChosenConnection>
@@ -2994,6 +3043,19 @@
             <Label />
             <IsLadderSelected>true</IsLadderSelected>
           </RungEntity>
+          <RungEntity>
+            <LadderElements />
+            <InstructionLines>
+              <InstructionLineEntity>
+                <InstructionLine>LD</InstructionLine>
+                <Comment />
+              </InstructionLineEntity>
+            </InstructionLines>
+            <Name />
+            <MainComment />
+            <Label />
+            <IsLadderSelected>true</IsLadderSelected>
+          </RungEntity>
         </Rungs>
       </ProgramOrganizationUnits>
     </Pous>
@@ -3026,106 +3088,6 @@
         <Address>%M20</Address>
         <Index>20</Index>
         <Symbol>INC_TRANSBAAN</Symbol>
-      </MemoryBit>
-      <MemoryBit>
-        <Address>%M21</Address>
-        <Index>21</Index>
-        <Symbol>STAP_1</Symbol>
-      </MemoryBit>
-      <MemoryBit>
-        <Address>%M22</Address>
-        <Index>22</Index>
-        <Symbol>STAP_2</Symbol>
-      </MemoryBit>
-      <MemoryBit>
-        <Address>%M23</Address>
-        <Index>23</Index>
-        <Symbol>STAP_3</Symbol>
-      </MemoryBit>
-      <MemoryBit>
-        <Address>%M24</Address>
-        <Index>24</Index>
-        <Symbol>STAP_4</Symbol>
-      </MemoryBit>
-      <MemoryBit>
-        <Address>%M25</Address>
-        <Index>25</Index>
-        <Symbol>STAP_5</Symbol>
-      </MemoryBit>
-      <MemoryBit>
-        <Address>%M26</Address>
-        <Index>26</Index>
-        <Symbol>STAP_6</Symbol>
-      </MemoryBit>
-      <MemoryBit>
-        <Address>%M27</Address>
-        <Index>27</Index>
-        <Symbol>STAP_7</Symbol>
-      </MemoryBit>
-      <MemoryBit>
-        <Address>%M28</Address>
-        <Index>28</Index>
-        <Symbol>STAP_8</Symbol>
-      </MemoryBit>
-      <MemoryBit>
-        <Address>%M29</Address>
-        <Index>29</Index>
-        <Symbol>STAP_9</Symbol>
-      </MemoryBit>
-      <MemoryBit>
-        <Address>%M30</Address>
-        <Index>30</Index>
-        <Symbol>STAP_10</Symbol>
-      </MemoryBit>
-      <MemoryBit>
-        <Address>%M31</Address>
-        <Index>31</Index>
-        <Symbol>STAP_11</Symbol>
-      </MemoryBit>
-      <MemoryBit>
-        <Address>%M32</Address>
-        <Index>32</Index>
-        <Symbol>STAP_12</Symbol>
-      </MemoryBit>
-      <MemoryBit>
-        <Address>%M33</Address>
-        <Index>33</Index>
-        <Symbol>STAP_13</Symbol>
-      </MemoryBit>
-      <MemoryBit>
-        <Address>%M34</Address>
-        <Index>34</Index>
-        <Symbol>STAP_14</Symbol>
-      </MemoryBit>
-      <MemoryBit>
-        <Address>%M35</Address>
-        <Index>35</Index>
-        <Symbol>STAP_15</Symbol>
-      </MemoryBit>
-      <MemoryBit>
-        <Address>%M36</Address>
-        <Index>36</Index>
-        <Symbol>STAP_16</Symbol>
-      </MemoryBit>
-      <MemoryBit>
-        <Address>%M37</Address>
-        <Index>37</Index>
-        <Symbol>STAP_17</Symbol>
-      </MemoryBit>
-      <MemoryBit>
-        <Address>%M38</Address>
-        <Index>38</Index>
-        <Symbol>STAP_18</Symbol>
-      </MemoryBit>
-      <MemoryBit>
-        <Address>%M39</Address>
-        <Index>39</Index>
-        <Symbol>STAP_19</Symbol>
-      </MemoryBit>
-      <MemoryBit>
-        <Address>%M40</Address>
-        <Index>40</Index>
-        <Symbol>STAP_20</Symbol>
       </MemoryBit>
       <MemoryBit>
         <Address>%M50</Address>
@@ -3185,16 +3147,11 @@
       <MemoryBit>
         <Address>%M95</Address>
         <Index>95</Index>
-        <Symbol>QX_VENTIEL2</Symbol>
+        <Symbol>QX_KUKACOMMSTART</Symbol>
       </MemoryBit>
       <MemoryBit>
         <Address>%M96</Address>
         <Index>96</Index>
-        <Symbol>QX_KUKACOMMSTART</Symbol>
-      </MemoryBit>
-      <MemoryBit>
-        <Address>%M97</Address>
-        <Index>97</Index>
         <Symbol>QX_KUKACOMMSTOP</Symbol>
       </MemoryBit>
       <MemoryBit>
@@ -3265,12 +3222,17 @@
       <MemoryBit>
         <Address>%M111</Address>
         <Index>111</Index>
-        <Symbol>IX_RESETKNOP</Symbol>
+        <Symbol>IX_KUKATUSSEN</Symbol>
       </MemoryBit>
       <MemoryBit>
         <Address>%M112</Address>
         <Index>112</Index>
-        <Symbol>IX_FCTRANSBAAN</Symbol>
+        <Symbol>IX_RESETKNOP</Symbol>
+      </MemoryBit>
+      <MemoryBit>
+        <Address>%M113</Address>
+        <Index>113</Index>
+        <Symbol>IX_EXTRUDERACTIEF</Symbol>
       </MemoryBit>
     </MemoryBits>
     <SystemBits>
@@ -4674,6 +4636,21 @@
         <Preset>3</Preset>
         <Base>OneSecond</Base>
       </TimerTM>
+      <TimerTM>
+        <Address>%TM13</Address>
+        <Index>13</Index>
+        <Base>OneSecond</Base>
+      </TimerTM>
+      <TimerTM>
+        <Address>%TM14</Address>
+        <Index>14</Index>
+        <Base>OneSecond</Base>
+      </TimerTM>
+      <TimerTM>
+        <Address>%TM15</Address>
+        <Index>15</Index>
+        <Base>OneSecond</Base>
+      </TimerTM>
     </Timers>
     <Counters />
     <FastCounters />
@@ -4865,27 +4842,28 @@
           <DiscretInput>
             <Address>%I0.9</Address>
             <Index>9</Index>
-            <Symbol>RKS01</Symbol>
+            <Symbol>IKS01</Symbol>
             <DIFiltering>DIFilterings4ms</DIFiltering>
             <DILatch>DILatchNo</DILatch>
           </DiscretInput>
           <DiscretInput>
             <Address>%I0.10</Address>
             <Index>10</Index>
-            <Symbol>RKS02</Symbol>
+            <Symbol>IKS02</Symbol>
             <DIFiltering>DIFilterings4ms</DIFiltering>
             <DILatch>DILatchNo</DILatch>
           </DiscretInput>
           <DiscretInput>
             <Address>%I0.11</Address>
             <Index>11</Index>
-            <Symbol>PB04</Symbol>
+            <Symbol>IKS03</Symbol>
             <DIFiltering>DIFilterings4ms</DIFiltering>
             <DILatch>DILatchNo</DILatch>
           </DiscretInput>
           <DiscretInput>
             <Address>%I0.12</Address>
             <Index>12</Index>
+            <Symbol>PB04</Symbol>
             <DIFiltering>DIFilterings4ms</DIFiltering>
             <DILatch>DILatchNo</DILatch>
           </DiscretInput>
