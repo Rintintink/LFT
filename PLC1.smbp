@@ -255,15 +255,15 @@
             <LadderElements />
             <InstructionLines>
               <InstructionLineEntity>
-                <InstructionLine>LD    %I0.0</InstructionLine>
+                <InstructionLine>LD  %I0.0</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>AND   %I0.1</InstructionLine>
+                <InstructionLine>AND  %I0.1</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>ST    %M120</InstructionLine>
+                <InstructionLine>ST  %M120</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
             </InstructionLines>
@@ -276,11 +276,11 @@
             <LadderElements />
             <InstructionLines>
               <InstructionLineEntity>
-                <InstructionLine>LD    %I0.2</InstructionLine>
+                <InstructionLine>LD  %I0.2</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>ST    %M102</InstructionLine>
+                <InstructionLine>ST  %M102</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
             </InstructionLines>
@@ -293,11 +293,11 @@
             <LadderElements />
             <InstructionLines>
               <InstructionLineEntity>
-                <InstructionLine>LD    %I0.3</InstructionLine>
+                <InstructionLine>LD  %I0.3</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>ST    %M103</InstructionLine>
+                <InstructionLine>ST  %M103</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
             </InstructionLines>
@@ -310,11 +310,11 @@
             <LadderElements />
             <InstructionLines>
               <InstructionLineEntity>
-                <InstructionLine>LD    %I0.4</InstructionLine>
+                <InstructionLine>LD  %I0.4</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>ST    %M104</InstructionLine>
+                <InstructionLine>ST  %M104</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
             </InstructionLines>
@@ -327,11 +327,11 @@
             <LadderElements />
             <InstructionLines>
               <InstructionLineEntity>
-                <InstructionLine>LD    %I0.5</InstructionLine>
+                <InstructionLine>LD  %I0.5</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>ST    %M105</InstructionLine>
+                <InstructionLine>ST  %M105</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
             </InstructionLines>
@@ -344,11 +344,11 @@
             <LadderElements />
             <InstructionLines>
               <InstructionLineEntity>
-                <InstructionLine>LD    %I0.6</InstructionLine>
+                <InstructionLine>LD  %I0.6</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>ST    %M106</InstructionLine>
+                <InstructionLine>ST  %M106</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
             </InstructionLines>
@@ -361,11 +361,11 @@
             <LadderElements />
             <InstructionLines>
               <InstructionLineEntity>
-                <InstructionLine>LD    %I0.7</InstructionLine>
+                <InstructionLine>LD  %I0.7</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>ST    %M107</InstructionLine>
+                <InstructionLine>ST  %M107</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
             </InstructionLines>
@@ -378,11 +378,11 @@
             <LadderElements />
             <InstructionLines>
               <InstructionLineEntity>
-                <InstructionLine>LD    %I0.8</InstructionLine>
+                <InstructionLine>LD  %I0.8</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>ST    %M108</InstructionLine>
+                <InstructionLine>ST  %M108</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
             </InstructionLines>
@@ -395,11 +395,11 @@
             <LadderElements />
             <InstructionLines>
               <InstructionLineEntity>
-                <InstructionLine>LD    %I0.9</InstructionLine>
+                <InstructionLine>LD  %I0.9</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>ST    %M109</InstructionLine>
+                <InstructionLine>ST  %M109</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
             </InstructionLines>
@@ -412,11 +412,11 @@
             <LadderElements />
             <InstructionLines>
               <InstructionLineEntity>
-                <InstructionLine>LD    %I0.10</InstructionLine>
+                <InstructionLine>LD  %I0.10</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>ST    %M110</InstructionLine>
+                <InstructionLine>ST  %M110</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
             </InstructionLines>
@@ -429,11 +429,11 @@
             <LadderElements />
             <InstructionLines>
               <InstructionLineEntity>
-                <InstructionLine>LD    %I0.11</InstructionLine>
+                <InstructionLine>LD  %I0.11</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>ST    %M111</InstructionLine>
+                <InstructionLine>ST  %M111</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
             </InstructionLines>
@@ -446,11 +446,11 @@
             <LadderElements />
             <InstructionLines>
               <InstructionLineEntity>
-                <InstructionLine>LD    %I0.12</InstructionLine>
+                <InstructionLine>LD  %I0.12</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>ST    %M112</InstructionLine>
+                <InstructionLine>ST  %M112</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
             </InstructionLines>
@@ -463,19 +463,19 @@
             <LadderElements />
             <InstructionLines>
               <InstructionLineEntity>
-                <InstructionLine>LD    %M71</InstructionLine>
+                <InstructionLine>LD  %M71</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>OR    %M72</InstructionLine>
+                <InstructionLine>OR  %M72</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>OR    %M73</InstructionLine>
+                <InstructionLine>OR  %M73</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>ST    %Q0.0</InstructionLine>
+                <InstructionLine>ST  %Q0.0</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
             </InstructionLines>
@@ -488,19 +488,19 @@
             <LadderElements />
             <InstructionLines>
               <InstructionLineEntity>
-                <InstructionLine>LD    %M74</InstructionLine>
+                <InstructionLine>LD  %M74</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>OR    %M75</InstructionLine>
+                <InstructionLine>OR  %M75</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>OR    %M76</InstructionLine>
+                <InstructionLine>OR  %M76</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>ST    %Q0.1</InstructionLine>
+                <InstructionLine>ST  %Q0.1</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
             </InstructionLines>
@@ -513,19 +513,19 @@
             <LadderElements />
             <InstructionLines>
               <InstructionLineEntity>
-                <InstructionLine>LD    %M60</InstructionLine>
+                <InstructionLine>LD  %M60</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>OR    %M61</InstructionLine>
+                <InstructionLine>OR  %M61</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>OR    %M62</InstructionLine>
+                <InstructionLine>OR  %M62</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>ST    %Q0.2</InstructionLine>
+                <InstructionLine>ST  %Q0.2</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
             </InstructionLines>
@@ -538,19 +538,19 @@
             <LadderElements />
             <InstructionLines>
               <InstructionLineEntity>
-                <InstructionLine>LD    %M65</InstructionLine>
+                <InstructionLine>LD  %M65</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>OR    %M66</InstructionLine>
+                <InstructionLine>OR  %M66</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>OR    %M67</InstructionLine>
+                <InstructionLine>OR  %M67</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>ST    %Q0.3</InstructionLine>
+                <InstructionLine>ST  %Q0.3</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
             </InstructionLines>
@@ -563,19 +563,19 @@
             <LadderElements />
             <InstructionLines>
               <InstructionLineEntity>
-                <InstructionLine>LD    %M68</InstructionLine>
+                <InstructionLine>LD  %M68</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>OR    %M69</InstructionLine>
+                <InstructionLine>OR  %M69</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>OR    %M70</InstructionLine>
+                <InstructionLine>OR  %M70</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>ST    %Q0.4</InstructionLine>
+                <InstructionLine>ST  %Q0.4</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
             </InstructionLines>
@@ -588,19 +588,19 @@
             <LadderElements />
             <InstructionLines>
               <InstructionLineEntity>
-                <InstructionLine>LD    %M77</InstructionLine>
+                <InstructionLine>LD  %M77</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>OR    %M78</InstructionLine>
+                <InstructionLine>OR  %M78</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>OR    %M79</InstructionLine>
+                <InstructionLine>OR  %M79</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>ST    %Q0.5</InstructionLine>
+                <InstructionLine>ST  %Q0.5</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
             </InstructionLines>
@@ -613,19 +613,19 @@
             <LadderElements />
             <InstructionLines>
               <InstructionLineEntity>
-                <InstructionLine>LD    %M80</InstructionLine>
+                <InstructionLine>LD  %M80</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>OR    %M81</InstructionLine>
+                <InstructionLine>OR  %M81</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>OR    %M82</InstructionLine>
+                <InstructionLine>OR  %M82</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>ST    %Q0.6</InstructionLine>
+                <InstructionLine>ST  %Q0.6</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
             </InstructionLines>
@@ -641,7 +641,91 @@
         <SectionNumber>2</SectionNumber>
         <Rungs>
           <RungEntity>
-            <LadderElements />
+            <LadderElements>
+              <LadderEntity>
+                <ElementType>NormalContact</ElementType>
+                <Descriptor>%M102</Descriptor>
+                <Comment />
+                <Symbol>IX_ESTOP</Symbol>
+                <Row>0</Row>
+                <Column>0</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>NegatedContact</ElementType>
+                <Descriptor>%M110</Descriptor>
+                <Comment />
+                <Symbol>IX_KUKAALARM</Symbol>
+                <Row>0</Row>
+                <Column>1</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Descriptor />
+                <Row>0</Row>
+                <Column>2</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Descriptor />
+                <Row>0</Row>
+                <Column>3</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Descriptor />
+                <Row>0</Row>
+                <Column>4</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Descriptor />
+                <Row>0</Row>
+                <Column>5</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Descriptor />
+                <Row>0</Row>
+                <Column>6</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Descriptor />
+                <Row>0</Row>
+                <Column>7</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Descriptor />
+                <Row>0</Row>
+                <Column>8</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Descriptor />
+                <Row>0</Row>
+                <Column>9</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Coil</ElementType>
+                <Descriptor>%M50</Descriptor>
+                <Comment />
+                <Symbol>B_SAFETYOK</Symbol>
+                <Row>0</Row>
+                <Column>10</Column>
+                <ChosenConnection>Left</ChosenConnection>
+              </LadderEntity>
+            </LadderElements>
             <InstructionLines>
               <InstructionLineEntity>
                 <InstructionLine>LD    %M102</InstructionLine>
@@ -659,10 +743,95 @@
             <Name>Lees ingangen</Name>
             <MainComment />
             <Label />
-            <IsLadderSelected>false</IsLadderSelected>
+            <IsLadderSelected>true</IsLadderSelected>
           </RungEntity>
           <RungEntity>
-            <LadderElements />
+            <LadderElements>
+              <LadderEntity>
+                <ElementType>NormalContact</ElementType>
+                <Descriptor>%M50</Descriptor>
+                <Comment />
+                <Symbol>B_SAFETYOK</Symbol>
+                <Row>0</Row>
+                <Column>0</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>RisingEdgeBlock</ElementType>
+                <Descriptor>0</Descriptor>
+                <Comment />
+                <Row>0</Row>
+                <Column>1</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Descriptor />
+                <Row>0</Row>
+                <Column>3</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Descriptor />
+                <Row>0</Row>
+                <Column>4</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Descriptor />
+                <Row>0</Row>
+                <Column>5</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Descriptor />
+                <Row>0</Row>
+                <Column>6</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Descriptor />
+                <Row>0</Row>
+                <Column>7</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Descriptor />
+                <Row>0</Row>
+                <Column>8</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Descriptor />
+                <Row>0</Row>
+                <Column>9</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>SetCoil</ElementType>
+                <Descriptor>%M68</Descriptor>
+                <Comment>Start eindbeweging</Comment>
+                <Symbol>QX_VENTIEL1</Symbol>
+                <Row>0</Row>
+                <Column>10</Column>
+                <ChosenConnection>Left</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>NegatedContact</ElementType>
+                <Descriptor>%M52</Descriptor>
+                <Comment />
+                <Symbol>RUN_RESET</Symbol>
+                <Row>0</Row>
+                <Column>2</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+            </LadderElements>
             <InstructionLines>
               <InstructionLineEntity>
                 <InstructionLine>LD    %M50</InstructionLine>
@@ -673,6 +842,10 @@
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
+                <InstructionLine>ANDN  %M52</InstructionLine>
+                <Comment />
+              </InstructionLineEntity>
+              <InstructionLineEntity>
                 <InstructionLine>S     %M68</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
@@ -680,10 +853,141 @@
             <Name />
             <MainComment />
             <Label />
-            <IsLadderSelected>false</IsLadderSelected>
+            <IsLadderSelected>true</IsLadderSelected>
           </RungEntity>
           <RungEntity>
-            <LadderElements />
+            <LadderElements>
+              <LadderEntity>
+                <ElementType>NormalContact</ElementType>
+                <Descriptor>%M50</Descriptor>
+                <Comment />
+                <Symbol>B_SAFETYOK</Symbol>
+                <Row>0</Row>
+                <Column>0</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>FallingEdgeBlock</ElementType>
+                <Descriptor>0</Descriptor>
+                <Comment />
+                <Row>0</Row>
+                <Column>1</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Descriptor />
+                <Row>0</Row>
+                <Column>2</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Descriptor />
+                <Row>0</Row>
+                <Column>3</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Descriptor />
+                <Row>0</Row>
+                <Column>4</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Descriptor />
+                <Row>0</Row>
+                <Column>5</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Descriptor />
+                <Row>0</Row>
+                <Column>6</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Descriptor />
+                <Row>0</Row>
+                <Column>7</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Descriptor />
+                <Row>0</Row>
+                <Column>8</Column>
+                <ChosenConnection>Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>Line</ElementType>
+                <Descriptor />
+                <Row>0</Row>
+                <Column>9</Column>
+                <ChosenConnection>Down, Left, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>VerticalLine</ElementType>
+                <Descriptor />
+                <Row>1</Row>
+                <Column>9</Column>
+                <ChosenConnection>Up, Down, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>VerticalLine</ElementType>
+                <Descriptor />
+                <Row>2</Row>
+                <Column>9</Column>
+                <ChosenConnection>Up, Down, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>VerticalLine</ElementType>
+                <Descriptor />
+                <Row>3</Row>
+                <Column>9</Column>
+                <ChosenConnection>Up, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>SetCoil</ElementType>
+                <Descriptor>%M82</Descriptor>
+                <Comment>Aanroep in Modus</Comment>
+                <Symbol>QX_CUTTINGTOOLDEACTIVEER3</Symbol>
+                <Row>0</Row>
+                <Column>10</Column>
+                <ChosenConnection>Left</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>SetCoil</ElementType>
+                <Descriptor>%M76</Descriptor>
+                <Comment>Aanroep in Safety</Comment>
+                <Symbol>QX_RELAISEXSTOP3</Symbol>
+                <Row>1</Row>
+                <Column>10</Column>
+                <ChosenConnection>Left</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>SetCoil</ElementType>
+                <Descriptor>%M65</Descriptor>
+                <Comment>Aanroep in Safety</Comment>
+                <Symbol>KUKASTOP_1</Symbol>
+                <Row>2</Row>
+                <Column>10</Column>
+                <ChosenConnection>Left</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>ResetCoil</ElementType>
+                <Descriptor>%M68</Descriptor>
+                <Comment>Start eindbeweging</Comment>
+                <Symbol>QX_VENTIEL1</Symbol>
+                <Row>3</Row>
+                <Column>10</Column>
+                <ChosenConnection>Left</ChosenConnection>
+              </LadderEntity>
+            </LadderElements>
             <InstructionLines>
               <InstructionLineEntity>
                 <InstructionLine>LD    %M50</InstructionLine>
@@ -713,7 +1017,7 @@
             <Name />
             <MainComment />
             <Label />
-            <IsLadderSelected>false</IsLadderSelected>
+            <IsLadderSelected>true</IsLadderSelected>
           </RungEntity>
         </Rungs>
       </ProgramOrganizationUnits>
@@ -1511,27 +1815,6 @@
                 <Symbol>RUN_AUTO</Symbol>
                 <Row>0</Row>
                 <Column>2</Column>
-                <ChosenConnection>Down, Left, Right</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>VerticalLine</ElementType>
-                <Descriptor />
-                <Row>1</Row>
-                <Column>2</Column>
-                <ChosenConnection>Up, Down, Right</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>VerticalLine</ElementType>
-                <Descriptor />
-                <Row>2</Row>
-                <Column>2</Column>
-                <ChosenConnection>Up, Right</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>Line</ElementType>
-                <Descriptor />
-                <Row>0</Row>
-                <Column>3</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
               </LadderEntity>
               <LadderEntity>
@@ -1540,20 +1823,13 @@
                 <Comment />
                 <Symbol>INC_TRANSBAAN</Symbol>
                 <Row>1</Row>
-                <Column>3</Column>
-                <ChosenConnection>Left, Right</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>Line</ElementType>
-                <Descriptor />
-                <Row>0</Row>
                 <Column>4</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
               </LadderEntity>
               <LadderEntity>
                 <ElementType>Line</ElementType>
                 <Descriptor />
-                <Row>1</Row>
+                <Row>0</Row>
                 <Column>4</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
               </LadderEntity>
@@ -1561,7 +1837,7 @@
                 <ElementType>Comparison</ElementType>
                 <ComparisonExpression>%MW10 = 0</ComparisonExpression>
                 <Row>2</Row>
-                <Column>3</Column>
+                <Column>4</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
               </LadderEntity>
               <LadderEntity>
@@ -1575,13 +1851,6 @@
                 <ElementType>Line</ElementType>
                 <Descriptor />
                 <Row>1</Row>
-                <Column>5</Column>
-                <ChosenConnection>Left, Right</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>Line</ElementType>
-                <Descriptor />
-                <Row>2</Row>
                 <Column>5</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
               </LadderEntity>
@@ -1687,6 +1956,27 @@
                 <Column>9</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
               </LadderEntity>
+              <LadderEntity>
+                <ElementType>VerticalLine</ElementType>
+                <Row>1</Row>
+                <Column>3</Column>
+                <ChosenConnection>Up, Down, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>VerticalLine</ElementType>
+                <Row>2</Row>
+                <Column>3</Column>
+                <ChosenConnection>Up, Right</ChosenConnection>
+              </LadderEntity>
+              <LadderEntity>
+                <ElementType>NegatedContact</ElementType>
+                <Descriptor>%M52</Descriptor>
+                <Comment />
+                <Symbol>RUN_RESET</Symbol>
+                <Row>0</Row>
+                <Column>3</Column>
+                <ChosenConnection>Down, Left, Right</ChosenConnection>
+              </LadderEntity>
             </LadderElements>
             <InstructionLines>
               <InstructionLineEntity>
@@ -1699,6 +1989,10 @@
               </InstructionLineEntity>
               <InstructionLineEntity>
                 <InstructionLine>AND   %M51</InstructionLine>
+                <Comment />
+              </InstructionLineEntity>
+              <InstructionLineEntity>
+                <InstructionLine>ANDN  %M52</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
@@ -2496,7 +2790,7 @@
                 <Symbol />
                 <Row>3</Row>
                 <Column>3</Column>
-                <ChosenConnection>Up, Down, Right</ChosenConnection>
+                <ChosenConnection>Up, Right</ChosenConnection>
               </LadderEntity>
               <LadderEntity>
                 <ElementType>NormalContact</ElementType>
@@ -2505,7 +2799,7 @@
                 <Symbol>IX_REEDCUTTINGGESLOTEN</Symbol>
                 <Row>3</Row>
                 <Column>4</Column>
-                <ChosenConnection>Down, Left, Right</ChosenConnection>
+                <ChosenConnection>Left, Right</ChosenConnection>
               </LadderEntity>
               <LadderEntity>
                 <ElementType>VerticalLine</ElementType>
@@ -2578,49 +2872,10 @@
                 <Column>6</Column>
                 <ChosenConnection>Left, Right</ChosenConnection>
               </LadderEntity>
-              <LadderEntity>
-                <ElementType>NormalContact</ElementType>
-                <Descriptor>%TM30.Q</Descriptor>
-                <Comment />
-                <Symbol>T_TESTOPSTELLING.Q</Symbol>
-                <Row>4</Row>
-                <Column>4</Column>
-                <ChosenConnection>Up, Left</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>Timer</ElementType>
-                <Descriptor>%TM30</Descriptor>
-                <Comment />
-                <Symbol>T_TESTOPSTELLING</Symbol>
-                <Row>5</Row>
-                <Column>5</Column>
-                <ChosenConnection>Left</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>VerticalLine</ElementType>
-                <Row>4</Row>
-                <Column>3</Column>
-                <ChosenConnection>Up, Down, Right</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>VerticalLine</ElementType>
-                <Row>5</Row>
-                <Column>3</Column>
-                <ChosenConnection>Up, Right</ChosenConnection>
-              </LadderEntity>
-              <LadderEntity>
-                <ElementType>NormalContact</ElementType>
-                <Descriptor>%M31</Descriptor>
-                <Comment />
-                <Symbol />
-                <Row>5</Row>
-                <Column>4</Column>
-                <ChosenConnection>Left, Right</ChosenConnection>
-              </LadderEntity>
             </LadderElements>
             <InstructionLines>
               <InstructionLineEntity>
-                <InstructionLine>LD  1</InstructionLine>
+                <InstructionLine>LD    1</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
@@ -2628,15 +2883,15 @@
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>LD  1</InstructionLine>
+                <InstructionLine>LD    1</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>AND  %M55</InstructionLine>
+                <InstructionLine>AND   %M55</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>AND [ %MW10 = 4 ]</InstructionLine>
+                <InstructionLine>AND   [ %MW10 = 4 ]</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
@@ -2660,11 +2915,11 @@
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>ST  %M77</InstructionLine>
+                <InstructionLine>ST    %M77</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>BLK  %TM4</InstructionLine>
+                <InstructionLine>BLK   %TM4</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
@@ -2680,7 +2935,7 @@
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>LD Q</InstructionLine>
+                <InstructionLine>LD    Q</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
@@ -2700,39 +2955,11 @@
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
-                <InstructionLine>AND(  %M106</InstructionLine>
-                <Comment />
-              </InstructionLineEntity>
-              <InstructionLineEntity>
-                <InstructionLine>OR  %TM30.Q</InstructionLine>
-                <Comment />
-              </InstructionLineEntity>
-              <InstructionLineEntity>
-                <InstructionLine>)</InstructionLine>
+                <InstructionLine>AND   %M106</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
                 <InstructionLine>[ %MW10 := %MW10 + 1 ]</InstructionLine>
-                <Comment />
-              </InstructionLineEntity>
-              <InstructionLineEntity>
-                <InstructionLine>BLK  %TM30</InstructionLine>
-                <Comment />
-              </InstructionLineEntity>
-              <InstructionLineEntity>
-                <InstructionLine>LD  %MW2009:X0</InstructionLine>
-                <Comment />
-              </InstructionLineEntity>
-              <InstructionLineEntity>
-                <InstructionLine>AND  %M31</InstructionLine>
-                <Comment />
-              </InstructionLineEntity>
-              <InstructionLineEntity>
-                <InstructionLine>IN</InstructionLine>
-                <Comment />
-              </InstructionLineEntity>
-              <InstructionLineEntity>
-                <InstructionLine>END_BLK</InstructionLine>
                 <Comment />
               </InstructionLineEntity>
               <InstructionLineEntity>
@@ -6998,6 +7225,8 @@
       <AutoSaveRamOnEeprom>true</AutoSaveRamOnEeprom>
       <WatchdogPeriod>250</WatchdogPeriod>
     </CpuBehavior>
+    <InstListBufferSize>19438</InstListBufferSize>
+    <ProgramBufferSize>156405</ProgramBufferSize>
     <TraceTimeBase>Time5Sec</TraceTimeBase>
     <UserFunctionPous />
     <UserFunctionBlockPous />
